@@ -16,7 +16,7 @@ const Feeds = () => {
             <th>DATE PURCHASED</th>
             <th>QUANTITY (g)</th>
             <th>SERVING/DAY (g)</th>
-            <th>ESTIMATED DURATION</th>
+            <th>ESTIMATED DURATION (days)</th>
             <th>ESTIMATED RESTOCKED DATE</th>
             <th>ACTIONS</th>
           </tr>

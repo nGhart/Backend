@@ -13,7 +13,6 @@ const EditInventory = ({
       <Form.Group className="mb-3" controlId="inventoryName">
         <Form.Label>Name *</Form.Label>
         <Form.Control
-          required
           type="text"
           name="inventoryName"
           onChange={handleUpdateInventory}
@@ -24,7 +23,6 @@ const EditInventory = ({
       <Form.Group className="mb-3" controlId="inventoryNumber">
         <Form.Label>Serial Number *</Form.Label>
         <Form.Control
-          required
           type="text"
           name="inventoryNumber"
           onChange={handleUpdateInventory}
@@ -43,7 +41,6 @@ const EditInventory = ({
       <Form.Group className="mb-3" controlId="inventoryPrice">
         <Form.Label>Purchase Price *</Form.Label>
         <Form.Control
-          required
           type="number"
           name="inventoryPrice"
           onChange={handleUpdateInventory}

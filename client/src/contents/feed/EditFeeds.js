@@ -13,7 +13,6 @@ const EditFeed = ({
       <Form.Group className="mb-3" controlId="feedName">
         <Form.Label>Name *</Form.Label>
         <Form.Control
-          required
           type="text"
           name="feedName"
           onChange={handleUpdateFeed}
@@ -25,7 +24,6 @@ const EditFeed = ({
         <Form.Label>Feed Quantity *</Form.Label>
         <Form.Control
           type="number"
-          required
           name="feedQuantity"
           onChange={handleUpdateFeed}
           value={updateFormFeed.feedQuantity}
@@ -36,7 +34,6 @@ const EditFeed = ({
         <Form.Control
           type="Serving"
           name="feedServing"
-          required
           onChange={handleUpdateFeed}
           value={updateFormFeed.feedServing}
         />

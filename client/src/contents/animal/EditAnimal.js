@@ -25,7 +25,6 @@ const EditAnimal = ({
                       <Form.Label htmlFor="">ID *</Form.Label>
                       <Form.Control
                         name="name"
-                        required
                         onChange={handleUpdate}
                         value={updateForm.name}
                         type="text"
@@ -38,7 +37,6 @@ const EditAnimal = ({
                       <Form.Label htmlFor="">Sex *</Form.Label>
                       <Form.Select
                         aria-label="SEX"
-                        required
                         name="sex"
                         onChange={handleUpdate}
                         value={updateForm.sex}
@@ -66,7 +64,6 @@ const EditAnimal = ({
                       <Form.Label htmlFor="">DOB *</Form.Label>
                       <Form.Control
                         name="dob"
-                        required
                         onChange={handleUpdate}
                         value={updateForm.dob}
                         type="date"
@@ -117,7 +114,6 @@ const EditAnimal = ({
                   <Form.Label htmlFor="">Dame *</Form.Label>
                   <Form.Control
                     name="dame"
-                    required
                     onChange={handleUpdate}
                     value={updateForm.dame}
                     type="text"
@@ -127,7 +123,6 @@ const EditAnimal = ({
                   <Form.Label htmlFor="">Sire *</Form.Label>
                   <Form.Control
                     name="sire"
-                    required
                     onChange={handleUpdate}
                     value={updateForm.sire}
                     type="text"

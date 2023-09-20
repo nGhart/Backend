@@ -15,8 +15,8 @@ const Inventories = () => {
             <th>EQUIPMENT</th>
             <th>SERIAL NUMBER</th>
             <th>PURCHASED DATE</th>
-            <th>PURCHASE PRICE</th>
-            <th>SALE PRICE</th>
+            <th>PURCHASE PRICE(GHC)</th>
+            <th>SALE PRICE(GHC)</th>
             <th>ACTIONS</th>
           </tr>
         </thead>

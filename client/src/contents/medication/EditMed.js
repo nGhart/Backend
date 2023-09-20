@@ -12,7 +12,6 @@ const EditMed = ({
       <Form.Group className="mb-3" controlId="name">
         <Form.Label>Name *</Form.Label>
         <Form.Control
-          required
           type="text"
           name="name"
           onChange={handleUpdateMed}
@@ -42,7 +41,6 @@ const EditMed = ({
       <Form.Group className="mb-3" controlId="expiryDate">
         <Form.Label>Expiry Date *</Form.Label>
         <Form.Control
-          required
           type="date"
           name="expiryDate"
           onChange={handleUpdateMed}

@@ -13,7 +13,6 @@ const EditMating = ({
       <Form.Group className="mb-3" controlId="matingDoe">
         <Form.Label>Doe *</Form.Label>
         <Form.Control
-          required
           type="text"
           name="matingDoe"
           onChange={handleUpdateMating}
@@ -24,7 +23,6 @@ const EditMating = ({
       <Form.Group className="mb-3" controlId="matingBuck">
         <Form.Label>Buck *</Form.Label>
         <Form.Control
-          required
           type="text"
           name="matingBuck"
           onChange={handleUpdateMating}
@@ -34,7 +32,6 @@ const EditMating = ({
       <Form.Group className="mb-3" controlId="matingDate1">
         <Form.Label>Date of First Servicing *</Form.Label>
         <Form.Control
-          required
           type="date"
           name="matingDate1"
           onChange={handleUpdateMating}
@@ -44,7 +41,6 @@ const EditMating = ({
       <Form.Group className="mb-3" controlId="matingDate2">
         <Form.Label>Date of Last Servicing *</Form.Label>
         <Form.Control
-          required
           type="date"
           name="matingDate2"
           onChange={handleUpdateMating}

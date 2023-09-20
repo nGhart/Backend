@@ -12,7 +12,6 @@ const EditQuarantine = ({
       <Form.Group className="mb-3" controlId="animal">
         <Form.Label>Affected Animal *</Form.Label>
         <Form.Control
-          required
           type="text"
           name="animal"
           onChange={handleUpdateQuarantine}
@@ -24,7 +23,6 @@ const EditQuarantine = ({
         <Form.Label>Condition *</Form.Label>
         <Form.Control
           type="text"
-          required
           name="condition"
           onChange={handleUpdateQuarantine}
           value={updateFormQuarantine.condition}
@@ -36,7 +34,6 @@ const EditQuarantine = ({
         <Form.Select
           type="text"
           name="outcome"
-          required
           aria-label="outcome"
           onChange={handleUpdateQuarantine}
           value={updateFormQuarantine.outcome}

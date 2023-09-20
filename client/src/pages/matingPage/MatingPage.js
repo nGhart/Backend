@@ -18,7 +18,7 @@ const MatingPage = () => {
         <Navbar style={{ backgroundColor: 'rgb(14, 73, 60)' }}>
           <Container>
             <Navbar.Brand href="#home">
-              <h1 className="title">Matings</h1>
+              <h1 className="title">Mating Records</h1>
             </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">

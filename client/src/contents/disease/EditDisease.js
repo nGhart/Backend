@@ -13,7 +13,6 @@ const EditDisease = ({
       <Form.Group className="mb-1" controlId="diseaseAnimal">
         <Form.Label>Animal *</Form.Label>
         <Form.Control
-          required
           type="text"
           name="diseaseAnimal"
           onChange={handleUpdateDisease}
@@ -24,7 +23,6 @@ const EditDisease = ({
       <Form.Group className="mb-1" controlId="diseaseCondition">
         <Form.Label>Condition *</Form.Label>
         <Form.Control
-          required
           type="text"
           name="diseaseCondition"
           onChange={handleUpdateDisease}

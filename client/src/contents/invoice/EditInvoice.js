@@ -14,7 +14,6 @@ const EditInvoice = ({
         <Form.Label>Name *</Form.Label>
         <Form.Control
           type="text"
-          required
           name="clientName"
           onChange={handleUpdateInvoice}
           value={updateFormInvoice.clientName}
@@ -33,7 +32,6 @@ const EditInvoice = ({
       <Form.Group className="mb-3" controlId="clientNumber">
         <Form.Label>Number *</Form.Label>
         <Form.Control
-          required
           type="text"
           name="clientNumber"
           onChange={handleUpdateInvoice}

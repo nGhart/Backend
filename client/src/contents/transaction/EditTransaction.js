@@ -22,7 +22,6 @@ const EditTransaction = ({
           <Form.Label>Transaction Type *</Form.Label>
           <Form.Check
             inline
-            required
             label="Expense"
             name="transactionType"
             type="radio"
@@ -33,7 +32,6 @@ const EditTransaction = ({
           />
           <Form.Check
             inline
-            required
             label="Income"
             name="transactionType"
             type="radio"
@@ -62,7 +60,6 @@ const EditTransaction = ({
           </Form.Label>
           <Form.Control
             type="date"
-            required
             name="date"
             value={updateFormTransaction.date}
             onChange={handleUpdateTransaction}
@@ -92,7 +89,6 @@ const EditTransaction = ({
             name="name"
             value={updateFormTransaction.name}
             onChange={handleUpdateTransaction}
-            required
           />
         </Form.Group>
 
@@ -116,7 +112,6 @@ const EditTransaction = ({
           <Form.Select
             aria-label="Category"
             type="text"
-            required
             onChange={handleUpdateTransaction}
             name="category"
             value={updateFormTransaction.category}
@@ -164,7 +159,6 @@ const EditTransaction = ({
             onChange={handleUpdateTransaction}
             name="price"
             value={updateFormTransaction.price}
-            required
           />
         </Form.Group>
         <Form.Group

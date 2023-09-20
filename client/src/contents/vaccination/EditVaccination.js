@@ -12,7 +12,6 @@ const EditVaccination = ({
       <Form.Group className="mb-3" controlId="medication">
         <Form.Label>Medication *</Form.Label>
         <Form.Control
-          required
           type="text"
           name="medication"
           onChange={handleUpdateVaccination}
@@ -22,7 +21,6 @@ const EditVaccination = ({
       <Form.Group className="mb-3" controlId="date">
         <Form.Label>Date *</Form.Label>
         <Form.Control
-          required
           type="date"
           name="date"
           onChange={handleUpdateVaccination}
@@ -32,7 +30,6 @@ const EditVaccination = ({
       <Form.Group className="mb-3" controlId="nextDate">
         <Form.Label>Next Date *</Form.Label>
         <Form.Control
-          required
           type="date"
           name="nextDate"
           onChange={handleUpdateVaccination}

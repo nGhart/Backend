@@ -15,7 +15,6 @@ const EditContact = ({
         <Form.Control
           type="text"
           name="contactName"
-          required
           onChange={handleUpdateContact}
           value={updateFormContact.contactName}
         />

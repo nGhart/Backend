@@ -16,7 +16,7 @@ const Employees = () => {
             <th>ROLE</th>
             <th>DEPARTMENT</th>
             <th>NUMBER</th>
-            <th>SALARY</th>
+            <th>SALARY(GHC)</th>
             <th>START DATE</th>
             <th>END DATE</th>
             <th>ACTIONS</th>

@@ -12,7 +12,6 @@ const EditEmployee = ({
       <Form.Group controlId="employeeName">
         <Form.Label>Name *</Form.Label>
         <Form.Control
-          required
           value={updateForm.employeeName}
           onChange={handleUpdate}
           type="text"
@@ -22,7 +21,6 @@ const EditEmployee = ({
       <Form.Group controlId="employeeRole">
         <Form.Label>Role *</Form.Label>
         <Form.Control
-          required
           value={updateForm.employeeRole}
           onChange={handleUpdate}
           type="text"
@@ -32,7 +30,6 @@ const EditEmployee = ({
       <Form.Group controlId="employeeDepartment">
         <Form.Label>Department *</Form.Label>
         <Form.Control
-          required
           value={updateForm.employeeDepartment}
           onChange={handleUpdate}
           type="text"
@@ -42,7 +39,6 @@ const EditEmployee = ({
       <Form.Group controlId="employeeNumber">
         <Form.Label>Number *</Form.Label>
         <Form.Control
-          required
           value={updateForm.employeeNumber}
           onChange={handleUpdate}
           type="text"
@@ -52,7 +48,6 @@ const EditEmployee = ({
       <Form.Group controlId="employeeSalary">
         <Form.Label>Salary *</Form.Label>
         <Form.Control
-          required
           value={updateForm.employeeSalary}
           onChange={handleUpdate}
           type="number"
