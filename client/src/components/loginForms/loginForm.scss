@@ -1,0 +1,10 @@
+.formContainer {
+  padding: 30px;
+  .signupOption {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
