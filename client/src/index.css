@@ -125,7 +125,6 @@ a:active {
   transform: scale(1.5);
   padding: 5px;
 }
-
 .title {
   color: rgb(231, 226, 212);
   font-family: 'Shrikhand', cursive;
@@ -142,7 +141,13 @@ a:active {
 }
 .healthButtons {
   padding: 5px;
-  border: none;
+  border: 3px outset rgb(47, 137, 118);
+  font-weight: 700;
+}
+.healthButtons:hover {
+  background-color: rgb(26, 115, 96);
+  color: rgb(26, 44, 40);
+  color: rgb(200, 212, 209);
 }
 .addButtons {
   background-color: rgb(47, 137, 118);

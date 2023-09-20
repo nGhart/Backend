@@ -7,7 +7,7 @@ const Menu = () => {
   return (
     <div className="menuContainer">
       <div className="item">
-        <span className="title">General</span>
+        <span className="menuTitle">General</span>
         <Link to="/animals" className="listItem">
           <img
             src={bunny}
@@ -31,7 +31,7 @@ const Menu = () => {
         </Link>
       </div>
       <div className="item">
-        <span className="title">Breeding</span>
+        <span className="menuTitle">Breeding</span>
         <Link to="/mating" className="listItem">
           <i className="fas fa-venus-mars"></i>
           {/* <img src={mating} alt="" /> */}
@@ -39,7 +39,7 @@ const Menu = () => {
         </Link>
       </div>
       <div className="item">
-        <span className="title">Health</span>
+        <span className="menuTitle">Health</span>
         <Link to="health" className="listItem">
           <i className="fas fa-plus-square"></i>
           <span className="listItemTitle">Health Records</span>
@@ -50,7 +50,7 @@ const Menu = () => {
         </Link>
       </div>
       <div className="item">
-        <span className="title">Finance</span>
+        <span className="menuTitle">Finance</span>
         <Link to="transaction" className="listItem">
           <i className="fas fa-dollar-sign"></i>
           <span className="listItemTitle">Expense Manager</span>
@@ -61,7 +61,7 @@ const Menu = () => {
         </Link>
       </div>
       <div className="item">
-        <span className="title">Others</span>
+        <span className="menuTitle">Others</span>
         <Link to="/contact" className="listItem">
           <i className="fas fa-address-book"></i>
           <span className="listItemTitle">Contacts</span>

@@ -26,7 +26,6 @@ import TransactionPage from './pages/TransactionPage/TransactionPage';
 import MatingPage from './pages/matingPage/MatingPage';
 import InvoicePage from './pages/invoicepage/InvoicePage';
 import HealthPage from './pages/health/HealthPage';
-//import DisplayAnimal from './contents/animal/ViewAnimal';
 import ViewAnimal from './contents/animal/ViewAnimal';
 import QuarantinePage from './pages/quarantinePage/QuarantinePage';
 import VaccinationPage from './pages/vaccinationPage/VaccinationPage';
@@ -65,15 +64,14 @@ export const makeApiRequest = async (url, method, data = null) => {
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      {/* <Route
+      <Route
         path="/"
         element={
           <RequireAuth>
             <Layout />
           </RequireAuth>
         }
-      > */}
-      <Route path="/" element={<Layout />}>
+      >
         <Route path="/" element={<Home />} />
         <Route path="animals" element={<AnimalTable />}></Route>
         <Route path="/animals/:id" element={<ViewAnimal />} />
@@ -90,13 +88,12 @@ const router = createBrowserRouter(
         <Route path="contact" element={<ContactPage />} />
         <Route path="transaction" element={<TransactionPage />} />
         <Route path="category" element={<TransactionCategory />} />
-
         <Route path="invoice" element={<InvoicePage />} />
         <Route path="meds" element={<MedicationPage />} />
       </Route>
+      <Route path="/logout" element={<LogoutPage />} />
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<SignupPage />} />
-      <Route path="/logout" element={<LogoutPage />} />
       <Route path="/print" element={<Print />} />
     </>
   )
@@ -109,12 +106,4 @@ function App() {
     </>
   );
 }
-
 export default App;
-
-{
-  /* <Route path="/animals/:id" element={<DisplayAnimal />} /> */
-}
-{
-  /* <Route path="/animals/:id" component={<ViewAnimal />} /> */
-}

@@ -6,8 +6,11 @@
     flex-direction: column;
     gap: 10px;
     margin-bottom: 15px;
-    .title {
-      font-size: 12px;
+    .menuTitle {
+      font-size: 14px;
+      font-family: 'Yatra One', cursive;
+      font-family: 'Shrikhand', cursive;
+      color: rgb(231, 226, 212);
       color: $soft-color;
       @include lg {
         display: none;

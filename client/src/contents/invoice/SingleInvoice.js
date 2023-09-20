@@ -35,7 +35,7 @@ const SingleInvoice = ({ item, index }) => {
         <td>{item.clientNumber}</td>
         <td>{item.clientEmail}</td>
         <td>{item.doePrice}</td>
-        <td>{item.clientDoePrice}</td>
+        <td>{item.clientDoeCount}</td>
         <td>{item.buckPrice}</td>
         <td>{item.clientBuckCount}</td>
         <td>{item.kitPrice}</td>

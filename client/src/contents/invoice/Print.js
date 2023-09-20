@@ -42,15 +42,12 @@ const Print = () => {
         height: '100%',
         display: 'flex',
         justifyContent: 'center',
-        //fontWeight: '700',
         backgroundColor: 'white',
       }}
     >
       <div
         style={{
-          //width: '800px',
           width: '70%',
-          //backgroundColor: 'pink',
           margin: '50px',
           padding: '50px',
         }}

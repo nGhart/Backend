@@ -19,7 +19,6 @@ const SignupForm = () => {
   return (
     <div>
       <h1 className="font2">Sign up</h1>
-
       <Form onSubmit={handleSignup}>
         <Container>
           <Row>
@@ -155,6 +154,21 @@ const SignupForm = () => {
           </Row>
         </Container>
       </Form>
+      <div
+        className="formButtonsContainer"
+        style={{
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          width: '100%',
+        }}
+      >
+        <h6>Already have an account</h6>{' '}
+        <Link to="/login">
+          <button className="formButtons" type="button">
+            Login
+          </button>
+        </Link>
+      </div>
     </div>
   );
 };

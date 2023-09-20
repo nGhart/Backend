@@ -27,13 +27,13 @@ const Navigation = () => {
               {/* <img src="" alt="" /> */}
               <span>{userInfo.name}</span>
             </div>
-            <Link className="logOutLink" to="/logout">
-              <button className="logOut">Log Out</button>
-            </Link>
           </>
         ) : (
-          <p>log in</p>
+          <span>Business Name</span>
         )}
+        <Link className="logOutLink" to="/logout">
+          <button className="logOut">Log Out</button>
+        </Link>
       </div>
     </div>
   );

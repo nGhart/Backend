@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import authStore from '../../stores/authStore';
 import { Link, useNavigate } from 'react-router-dom';
@@ -16,7 +15,7 @@ const LoginForm = () => {
   };
   return (
     <div className="formContainer">
-      <Form onSubmit={handleLogin}>
+      <Form className="form" onSubmit={handleLogin}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
           <Form.Control
@@ -47,9 +46,9 @@ const LoginForm = () => {
       </Form>
       <div className="signupOption">
         <h6>Don't have an account</h6>
-        <button className="formButtons">
-          <Link to="/signup">Sign Up</Link>
-        </button>
+        <Link to="/signup">
+          <button className="formButtons">Sign Up</button>
+        </Link>
       </div>
     </div>
   );

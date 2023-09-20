@@ -14,7 +14,7 @@ const QuarantinePage = () => {
   }, [store]);
   return (
     <div>
-      <header className="App-header" bg="dark" data-bs-theme="dark">
+      <header className="App-header">
         <Navbar style={{ backgroundColor: 'rgb(47, 137, 118)' }}>
           <Container>
             <Navbar.Brand href="#home">

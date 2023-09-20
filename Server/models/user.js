@@ -46,7 +46,9 @@ const userSchema = new mongoose.Schema({
   },
   letterhead: {
     type: String,
-    required: false,
+    required: true,
+    default:
+      'https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg',
   },
   //you can add multiple schemas
   animals: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Animal' }],
